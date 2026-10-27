@@ -34,8 +34,8 @@ const Menu = () => {
                 scrub: true,
             }
         })
-        .to("#m-left-leaf", { y: -200}, 0)
-        .to("#m-right-leaf", { y: 200}, 0)
+        // .to("#m-left-leaf", { y: -200}, 0)
+        // .to("#m-right-leaf", { y: 200}, 0)
     
     },[currentIndex]);
 
